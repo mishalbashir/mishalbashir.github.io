@@ -10,6 +10,10 @@
   padding: 75px 85px 50px;
 }
 
+.about {
+  margin-top: 50%;
+}
+
 .about_container {
   display: block;
   width: 65%;
@@ -30,6 +34,7 @@
 }
 
 .about_paragraph {
+  margin-right: 0%;
   font-family: Montserrat, sans-serif;
   color: rgba(51, 51, 51, .9);
 }
@@ -87,7 +92,7 @@
   padding: 15px 65px;
   font-family: Montserrat, sans-serif;
   color: #fff;
-  font-weight: 200;
+  font-weight: 700;
 }
 
 .item_1 {
@@ -120,11 +125,12 @@
 .work_photo {
   position: static;
   left: 0px;
-  right: 0px;
   bottom: 0px;
   display: block;
-  padding-right: 20%;
-  padding-left: 20%;
+  padding-right: 25%;
+  padding-left: 25%;
+  float: none;
+  clear: none;
   text-align: center;
 }
 
@@ -142,7 +148,7 @@
 }
 
 .link_behance {
-  margin-left: 15px;
+  margin-left: 10px;
   -webkit-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate(0px, 0px);
@@ -156,8 +162,11 @@
   .sidebar {
     position: static;
     overflow: hidden;
-    padding-top: 45px;
+    padding-top: 50px;
     padding-left: 45px;
+  }
+  .work_photo {
+    padding-right: 25%;
   }
 }
 
@@ -177,6 +186,9 @@
   }
   .item_1 {
     position: static;
+  }
+  .work_photo {
+    padding-right: 25%;
   }
 }
 
