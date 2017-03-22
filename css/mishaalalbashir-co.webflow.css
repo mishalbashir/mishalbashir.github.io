@@ -122,7 +122,35 @@
   background-color: #009ee2;
 }
 
+.item_4{
+  padding: 45px 65px;
+  background-color: #eabad8;
+}
+
 .work_photo {
+  position: static;
+  left: 0px;
+  bottom: 0px;
+  display: block;
+  padding-right: 30%;
+  padding-left: 30%;
+  float: none;
+  clear: none;
+  text-align: center;
+}
+
+.work_photo2 {
+  position: static;
+  left: 0px;
+  bottom: 0px;
+  display: block;
+  padding-right: 15%;
+  padding-left: 15%;
+  float: none;
+  clear: none;
+  text-align: center;
+}
+.work_photo3 {
   position: static;
   left: 0px;
   bottom: 0px;
