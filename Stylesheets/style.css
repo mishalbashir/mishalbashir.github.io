@@ -21,8 +21,12 @@
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
-	margin-left: -10px;
 	width: 50px;
+	transform: scale(1);
+}
+
+.contact-icons:hover{
+	transform: scale(1.2);
 }
 
 .contact{
