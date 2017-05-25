@@ -22,7 +22,7 @@
 	padding-right: 10px;
 	padding-top: 10px;
 	width: 50px;
-	transform: scale(1);
+	transform: scale(1, 1);
 }
 
 .contact-icons:hover{
@@ -161,9 +161,8 @@ img.about-bottom:hover{
 	}
 
 	.about-img{
-		padding-top: 0%;
-		align-items: center;
-		padding-left: 25%;
+		margin-left: auto;
+		margin-right: auto;
 		padding-top: 20px;
 	}
 
