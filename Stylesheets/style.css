@@ -75,12 +75,14 @@
 
 .about-title{
 	font-size: 30px;
+	text-align: right;
 	margin-top: -30px;
 	color: #404040;
 }
 
 .about-subtitle{
 	font-size: 16px;
+	text-align: right;
 	color: #bbb;
 	font-weight: 300;
 	padding-bottom: 0px;
@@ -88,7 +90,7 @@
 
 .about{
 	line-height: 30px;
-	text-align: right;
+
 	font-family: "Roboto", sans-serif;
 	padding-bottom: 10px;
 	padding-top: 10px;
@@ -97,6 +99,7 @@
 .about-body{
 	margin-top:-20px;
 	font-size: 16px;
+	text-align: right;
 	color:#404040;
 	font-weight: 300;
 	padding-left: 100px;
@@ -526,7 +529,7 @@ h1.intro-head {
 }
 
 body {
-	color; #fafafa;
+	background-color: #fff;
 /* changing the quote location, among other things */
   padding-top: 100px;
 }
